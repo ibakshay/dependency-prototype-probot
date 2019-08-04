@@ -18,10 +18,7 @@
     "lint": "standard --fix",
     "test": "jest && standard",
     "test:watch": "jest --watch --notify --notifyMode=change --coverage",
-    "build": [{
-      "src": "now.js",
-      "use": "@now/node"
-    }]
+    "now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) npm start"
   },
   "dependencies": {
     "probot": "^7.2.0",

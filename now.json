@@ -1,0 +1,10 @@
+{
+    "name": "dependency-check",
+    "alias": ["dependency-check"],
+    "env": {
+        "APP_ID": "@dep_bot_app_id",
+        "NODE_ENV": "production",
+        "PRIVATE_KEY": "@dep_bot_private_key",
+        "WEBHOOK_SECRET": "@dep_bot_webhook_secret"
+    }
+}
